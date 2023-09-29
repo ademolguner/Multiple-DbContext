@@ -4,30 +4,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3CA29563-5B1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{BB1750F5-6743-49E6-A187-9A59ABF458C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContext.Data", "src\Framework\MultipleDbContext.Data\MultipleDbContext.Data.csproj", "{23EA390D-E210-431D-8340-F5C8A77F1418}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContext.Data", "src\framework\MultipleDbContext.Data\MultipleDbContext.Data.csproj", "{23EA390D-E210-431D-8340-F5C8A77F1418}"
 EndProject
-
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E3FFDEB9-210C-4DD6-8B47-E9F187E3A01B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Data.Domain.Mongo", "src\Framework\Domain\MultipleContext.Data.Domain.Mongo\MultipleContext.Data.Domain.Mongo.csproj", "{5FE330BF-A87D-4F8B-9388-273C7428AC57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Data.Domain.Mongo", "src\framework\Domain\MultipleContext.Data.Domain.Mongo\MultipleContext.Data.Domain.Mongo.csproj", "{5FE330BF-A87D-4F8B-9388-273C7428AC57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Data.Domain.Postgre", "src\Framework\Domain\MultipleContext.Data.Domain.Postgre\MultipleContext.Data.Domain.Postgre.csproj", "{437C7DE3-2F3D-4A2F-B528-10367B9E6DCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Data.Domain.Postgre", "src\framework\Domain\MultipleContext.Data.Domain.Postgre\MultipleContext.Data.Domain.Postgre.csproj", "{437C7DE3-2F3D-4A2F-B528-10367B9E6DCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Data.Domain.Sql", "src\Framework\Domain\MultipleContext.Data.Domain.Sql\MultipleContext.Data.Domain.Sql.csproj", "{BEC5E219-0658-4C41-A95C-D70DA5BCD557}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Data.Domain.Sql", "src\framework\Domain\MultipleContext.Data.Domain.Sql\MultipleContext.Data.Domain.Sql.csproj", "{BEC5E219-0658-4C41-A95C-D70DA5BCD557}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{C7A70DA8-D03A-4AD0-BA3C-692CC4ED6AE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContext.Data.Mongo", "src\Framework\Databases\MultipleDbContext.Data.Mongo\MultipleDbContext.Data.Mongo.csproj", "{13BA749C-C7F3-41E3-9229-ED1BBA8A5D03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContext.Data.Mongo", "src\framework\Databases\MultipleDbContext.Data.Mongo\MultipleDbContext.Data.Mongo.csproj", "{13BA749C-C7F3-41E3-9229-ED1BBA8A5D03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContext.Data.Postgre", "src\Framework\Databases\MultipleDbContext.Data.Postgre\MultipleDbContext.Data.Postgre.csproj", "{1F7240EE-F452-4EFB-92C9-4C3A231404AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContext.Data.Postgre", "src\framework\Databases\MultipleDbContext.Data.Postgre\MultipleDbContext.Data.Postgre.csproj", "{1F7240EE-F452-4EFB-92C9-4C3A231404AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContext.Data.Sql", "src\Framework\Databases\MultipleDbContext.Data.Sql\MultipleDbContext.Data.Sql.csproj", "{1B1B7CFB-7F80-44DD-B88A-5FAD75E0AF5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContext.Data.Sql", "src\framework\Databases\MultipleDbContext.Data.Sql\MultipleDbContext.Data.Sql.csproj", "{1B1B7CFB-7F80-44DD-B88A-5FAD75E0AF5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Api.Product", "src\Api\MultipleContext.Api.Product\MultipleContext.Api.Product.csproj", "{7E6D9EC7-847D-4537-AB8F-333BDA7AEC0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Api.Product", "src\api\MultipleContext.Api.Product\MultipleContext.Api.Product.csproj", "{7E6D9EC7-847D-4537-AB8F-333BDA7AEC0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Api.Order", "src\Api\MultipleContext.Api.Order\MultipleContext.Api.Order.csproj", "{D9325BC8-A502-4CEA-BD34-F7C8DAEB89FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Api.Order", "src\api\MultipleContext.Api.Order\MultipleContext.Api.Order.csproj", "{D9325BC8-A502-4CEA-BD34-F7C8DAEB89FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Api.Catalog", "src\Api\MultipleContext.Api.Catalog\MultipleContext.Api.Catalog.csproj", "{B8D05720-9C3D-4D81-84D5-E49ABEB828BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleContext.Api.Catalog", "src\api\MultipleContext.Api.Catalog\MultipleContext.Api.Catalog.csproj", "{B8D05720-9C3D-4D81-84D5-E49ABEB828BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{B813481D-B0D4-47C3-831F-4969597A22E3}"
 EndProject
 
 Global
@@ -45,9 +46,11 @@ Global
 		{13BA749C-C7F3-41E3-9229-ED1BBA8A5D03} = {C7A70DA8-D03A-4AD0-BA3C-692CC4ED6AE1}
 		{1F7240EE-F452-4EFB-92C9-4C3A231404AE} = {C7A70DA8-D03A-4AD0-BA3C-692CC4ED6AE1}
 		{1B1B7CFB-7F80-44DD-B88A-5FAD75E0AF5F} = {C7A70DA8-D03A-4AD0-BA3C-692CC4ED6AE1}
-		{7E6D9EC7-847D-4537-AB8F-333BDA7AEC0B} = {3CA29563-5B19-4DA8-9647-3B543E37D6B5}
-		{D9325BC8-A502-4CEA-BD34-F7C8DAEB89FB} = {3CA29563-5B19-4DA8-9647-3B543E37D6B5}
-		{B8D05720-9C3D-4D81-84D5-E49ABEB828BB} = {3CA29563-5B19-4DA8-9647-3B543E37D6B5}
+		{B813481D-B0D4-47C3-831F-4969597A22E3} = {3CA29563-5B19-4DA8-9647-3B543E37D6B5}
+		{B8D05720-9C3D-4D81-84D5-E49ABEB828BB} = {B813481D-B0D4-47C3-831F-4969597A22E3}
+		{D9325BC8-A502-4CEA-BD34-F7C8DAEB89FB} = {B813481D-B0D4-47C3-831F-4969597A22E3}
+		{7E6D9EC7-847D-4537-AB8F-333BDA7AEC0B} = {B813481D-B0D4-47C3-831F-4969597A22E3}
+		{BB1750F5-6743-49E6-A187-9A59ABF458C7} = {3CA29563-5B19-4DA8-9647-3B543E37D6B5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{23EA390D-E210-431D-8340-F5C8A77F1418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
