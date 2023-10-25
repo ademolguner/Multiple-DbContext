@@ -1,14 +1,14 @@
+using MultipleContext.Api.Order;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-
-
-
-
-
+builder.Services.AddServiceDependencies(builder.Configuration)
+    .AddRepositoryDependencies()
+    .AddDbDependencies(builder.Configuration)
+    .AddClientDependencies();
 
 var app = builder.Build();
 app.UseSwagger();

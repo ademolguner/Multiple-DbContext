@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Domain\MultipleContext.Data.Domain.Sql\MultipleContext.Data.Domain.Sql.csproj" />
+    </ItemGroup>
+
 </Project>

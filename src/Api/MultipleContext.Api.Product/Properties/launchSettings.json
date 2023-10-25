@@ -1,13 +1,13 @@
 ﻿{
   "profiles": {
-    "Catalog.Api": {
+    "Product.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:1453",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "test"
       }
     }
   }

@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Domain\MultipleContext.Data.Domain.Postgre\MultipleContext.Data.Domain.Postgre.csproj" />
+    </ItemGroup>
+
 </Project>

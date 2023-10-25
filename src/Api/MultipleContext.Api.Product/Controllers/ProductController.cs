@@ -1,4 +1,7 @@
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using MultipleContext.Api.Product.Application.Features.Product.Command.CreateProduct;
+using MultipleContext.Api.Product.Application.Features.Product.Query.GetByIdProduct;
 
 namespace MultipleContext.Api.Product.Controllers;
 
@@ -6,18 +9,24 @@ namespace MultipleContext.Api.Product.Controllers;
 [Route("[controller]")]
 public class ProductController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+    private readonly IMediator _mediator;
 
-    private readonly ILogger<ProductController> _logger;
-
-    public ProductController(ILogger<ProductController> logger)
+    public ProductController(IMediator mediator)
     {
-        _logger = logger;
+        _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
     }
-
-    [HttpGet(Name = "products")]
-    public IEnumerable<string> Get() => new List<string>{"Come to back"};
+    
+    [HttpGet("id/{id}")]
+    public async Task<IActionResult> GetByIdAsync([FromRoute] string id)
+    {
+        var item = await _mediator.Send(new GetByIdProductQuery(id));
+        return Ok(item);
+    }
+    
+    [HttpPost]
+    public async Task<IActionResult> CreateAsync([FromBody] CreateProductCommand command)
+    {
+        var created = await _mediator.Send(command);
+        return Ok(created);
+    }
 }
